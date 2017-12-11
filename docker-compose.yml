@@ -1,11 +1,16 @@
 version: '2'
 
 services:
+  bungee:
+    image: rehf27/bungeecord
+    environment:
+      - EULA=true
+    ports:
+      - 5678:25577
+
   lobby:
     image: nimmis/spigot
     environment:
       - EULA=true
     volumes:
       - ./data/lobby:/minecraft
-    ports:
-      - 5678:25565
