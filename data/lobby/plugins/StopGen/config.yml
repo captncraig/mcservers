@@ -1,0 +1,6 @@
+all-chunks: false
+worlds:
+  world:
+    type: box
+    size: 1000, 1000
+    center: 0, 0
