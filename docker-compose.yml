@@ -7,3 +7,5 @@ services:
       - EULA=true
     volumes:
       - ./data/lobby:/minecraft
+    ports:
+      - 5678:25565
