@@ -2,7 +2,7 @@ version: '2'
 
 services:
   lobby:
-    build: ./lobby
+    image: nimmis/spigot
     environment:
       - EULA=true
     volumes:
