@@ -41,7 +41,7 @@ listeners:
 ip_forward: false
 network_compression_threshold: 256
 groups:
-  md_5:
+  captncraig:
   - admin
 connection_throttle: 4000
 stats: b63f502f-a9dc-4ae7-ae26-88e21fb07f4d
