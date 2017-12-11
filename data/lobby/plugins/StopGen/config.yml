@@ -7,7 +7,7 @@ worlds:
   world:
 
     # The type of restriction to apply, can be "all", "box", or "radius"
-    type: box
+    type: radius
 
     # The size of the shape in blocks (not needed for "all")
     # Note that this ends up being distance from the center, so the radius
