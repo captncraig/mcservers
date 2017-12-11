@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  lobby:
+    build: ./lobby
+    environment:
+      - EULA=true
+    volumes:
+      - ./lobby-data:/minecraft
