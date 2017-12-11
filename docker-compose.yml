@@ -7,6 +7,8 @@ services:
       - EULA=true
     ports:
       - 5678:25577
+    volumes:
+      - ./data/bungeecord:/bungeecord
 
   lobby:
     image: nimmis/spigot
