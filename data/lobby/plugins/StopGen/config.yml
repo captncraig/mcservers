@@ -1,5 +1,19 @@
 all-chunks: false
+
+# The list of worlds and their settings
 worlds:
+
+  # Add more worlds by entering their name
   world:
+
+    # The type of restriction to apply, can be "all", "box", or "radius"
     type: box
+
+    # The size of the shape in blocks (not needed for "all")
+    # Note that this ends up being distance from the center, so the radius
+    # numbers are the X size followed by the Z size
     size: 100, 100
+
+    # Where to center the shape on in block coordinates (not needed for "all")
+    # numbers are the X coordinate followed by the Z coordinate
+    center: 0, 0
