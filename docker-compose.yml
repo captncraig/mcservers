@@ -6,4 +6,4 @@ services:
     environment:
       - EULA=true
     volumes:
-      - ./lobby-data:/minecraft
+      - ./data/lobby:/minecraft
