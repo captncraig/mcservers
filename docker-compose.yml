@@ -16,3 +16,10 @@ services:
       - EULA=true
     volumes:
       - ./data/lobby:/minecraft
+  
+  lobby:
+    image: nimmis/spigot
+    environment:
+      - EULA=true
+    volumes:
+      - ./data/survival:/minecraft
