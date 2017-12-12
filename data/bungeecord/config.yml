@@ -12,8 +12,6 @@ permissions:
 timeout: 30000
 log_commands: false
 online_mode: true
-disabled_commands:
-- disabledcommandhere
 servers:
   lobby:
     motd: '&1Lobby server'
@@ -29,17 +27,15 @@ listeners:
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
-  forced_hosts:
-    pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
   - lobby
   - survival
   bind_local_address: true
   host: 0.0.0.0:25577
-  max_players: 1
+  max_players: 5
   tab_size: 60
-  force_default_server: false
+  force_default_server: true
 ip_forward: false
 network_compression_threshold: 256
 groups:
