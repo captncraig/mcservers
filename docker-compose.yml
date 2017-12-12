@@ -1,15 +1,7 @@
 version: '2'
 
 services:
-  bungee:
-    image: rehf27/bungeecord
-    environment:
-      - EULA=true
-    
-    volumes:
-      - ./data/bungeecord:/bungeecord
-
-  lobby:
+  spigot:
     image: nimmis/spigot
     ports:
       - 5678:25565
