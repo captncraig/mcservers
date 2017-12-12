@@ -5,21 +5,16 @@ services:
     image: rehf27/bungeecord
     environment:
       - EULA=true
-    ports:
-      - 5678:25577
+    
     volumes:
       - ./data/bungeecord:/bungeecord
 
   lobby:
     image: nimmis/spigot
+    ports:
+      - 5678:25565
     environment:
       - EULA=true
     volumes:
       - ./data/lobby:/minecraft
   
-  survival:
-    image: nimmis/spigot
-    environment:
-      - EULA=true
-    volumes:
-      - ./data/survival:/minecraft
