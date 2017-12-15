@@ -84,7 +84,7 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    mob-spawn-range: 4
+    mob-spawn-range: 7
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
