@@ -92,10 +92,10 @@ world-settings:
     random-light-updates: false
     save-structure-info: true
     dragon-death-sound-radius: 0
-    seed-village: 1038731
-    seed-feature: 1435761
-    seed-monument: 1038731
-    seed-slime: 98723491
+    seed-village: 103873
+    seed-feature: 143576
+    seed-monument: 103873
+    seed-slime: 9872349
     hunger:
       jump-walk-exhaustion: 0.05
       jump-sprint-exhaustion: 0.2
