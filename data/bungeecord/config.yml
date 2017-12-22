@@ -21,6 +21,10 @@ servers:
     motd: '&1Survival server'
     address: survival:25565
     restricted: false
+  flat:
+    motd: '&1Flatness'
+    address: flat:25565
+    restricted: false
 listeners:
 - query_port: 25577
   motd: '&1Its a wild Craig!'
