@@ -23,3 +23,10 @@ services:
       - EULA=true
     volumes:
       - ./data/survival:/minecraft
+
+  flat:
+    image: nimmis/spigot
+    environment:
+      - EULA=true
+    volumes:
+      - ./data/flat:/minecraft
