@@ -23,7 +23,7 @@ servers:
     restricted: false
 listeners:
 - query_port: 25577
-  motd: '&1It's a wild Craig!'
+  motd: '&1Its a wild Craig!'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
